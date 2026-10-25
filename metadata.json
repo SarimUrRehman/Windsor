@@ -1,0 +1,6 @@
+{
+  "name": "Windsor Chiropractic",
+  "description": "Caring, professional chiropractic in Athelstone, South Australia. Spinal care, neck tension relief, and posture advice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

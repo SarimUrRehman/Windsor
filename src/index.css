@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-teal-brand: #136F7A;
+  --color-teal-dark: #0D4F58;
+  --color-sage: #8DB8A5;
+  --color-sage-light: #F3F8F6;
+  --color-sand: #E3A94B;
+  --color-sand-hover: #d79c3d;
+  --color-slate-body: #1E2D33;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  color: var(--color-slate-body);
+}
+
+/* Custom rounded corners specification (10px) */
+.rounded-clinic {
+  border-radius: 10px;
+}
+
+/* Accessible focus visible styling */
+:focus-visible {
+  outline: 2px solid #136F7A;
+  outline-offset: 2px;
+}
